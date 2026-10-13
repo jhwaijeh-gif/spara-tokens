@@ -125,6 +125,8 @@
     .cta{padding:40px 24px;}
     .tip{grid-template-columns:34px 1fr;gap:14px;}
   }
+  /* Telefon: ikonen ovanför texten så att texten får hela bredden (Judes besked 2026-10-13) */
+  @media(max-width:640px){ .tip{grid-template-columns:minmax(0,1fr);gap:10px;} }
 </style>
 <style>
   :root{ --brand:#1A6BFF; --brand-dk:#1457E0; }
